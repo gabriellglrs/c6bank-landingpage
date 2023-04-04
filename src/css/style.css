@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    position: absolute;
+}
+
+.cabecalho {
+    position: relative;
+    height: 96px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho img {
+    height: 24px;
+    width: 120px;
+    margin-left: 62.5px;
+}
+
+.cabecalho-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 216.5px;
+}
+
+.cabecalho-nav a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 700;
+}
+
+.btn-cabecalho-nav {
+    padding: 13px 82px;
+    border: 1px solid rgba(36, 36, 36, 0.35);
+    border-radius: 24px;
+    background: transparent;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(36, 36, 36, 0.6);
+}
+
+.caixa-texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 62.5px;
+}
+
+.caixa1 {
+    padding: 9px 25px;
+    background: rgba(36, 36, 36, 0.35);
+    border: 1px solid rgba(250, 250, 250, 0.35);
+    padding: 12px 25px;
+    border-radius: 24px;
+    width: 455px;
+    height: 42px;
+    display: flexbox;
+    align-items: center;
+    color: #fafafa;
+    margin-bottom: 16px;
+}
+
+.caixa1 span {
+    background: #006d8f;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding: 3px 9px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.caixa-texto h1 {
+    font-size: 61px;
+    font-weight: 300;
+    color: #242424;
+    line-height: 76px;
+    margin-bottom: 24px;
+    height: 152px;
+    width: 600px;
+}
+
+.caixa-texto h3 {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    width: 616px;
+    height: 72px;
+    margin-bottom: 32px;
+}
+
+.btn-caixa-texto {
+    padding: 7px 25px;
+    color: #242424;
+    background-color: #ffce2e;
+    height: 44px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 24px;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+}
